@@ -1,0 +1,10 @@
+Create database piekarnia;
+Use piekarnia;
+Create Table registration (
+Idwynik int not null AUTO_INCREMENT,
+imie Varchar(20) null,
+Nazwisko varchar(20) null,
+Numer int not null,
+Haslo varchar(20) not null,
+PRIMARY KEY(Idwynik));
+
